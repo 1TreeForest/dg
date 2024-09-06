@@ -70,7 +70,7 @@ if (LLVM_DG)
 
 	add_definitions(${LLVM_DEFINITIONS})
 
-	option(LLVM_LINK_DYLIB "Link with LLVM dynamically" ON)
+	option(LLVM_LINK_DYLIB "Link with LLVM dynamically" OFF)
 
 	if (LLVM_LINK_DYLIB)
 		message(STATUS "LLVM linking: dynamic")

@@ -20,7 +20,6 @@ You can find a high-level description of DG in [DG: a program analysis library](
 You can write e-mails with issues to <mchqwerty@gmail.com> (or file issue in github).
 
 Fix sliced program
-bash```
+```bash
 llc bitcode.sliced -filetype=obj -o bitcode.o
-clang bitcode.o -o userspace_switch
-```
+clang bitcode.o -o userspace_switch```
